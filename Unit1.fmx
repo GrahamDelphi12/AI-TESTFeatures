@@ -27,4 +27,11 @@ object Form1: TForm1
     Text = 'Button1'
     TextSettings.Trimming = None
   end
+  object Button2: TButton
+    Position.X = 176.000000000000000000
+    Position.Y = 24.000000000000000000
+    TabOrder = 3
+    Text = 'Button2'
+    TextSettings.Trimming = None
+  end
 end

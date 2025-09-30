@@ -13,7 +13,8 @@ uses
 type
   TForm1 = class(TForm)
     LabelTemperature: TLabel;
-     LabelWindSpeed: TLabel;
+    LabelWindspeed: TLabel;
+    Button2: TButton;
   private
     FPendingTemperature: Double;
     FPendingWindSpeed: Double;
