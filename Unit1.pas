@@ -15,6 +15,7 @@ type
     LabelTemperature: TLabel;
     LabelWindspeed: TLabel;
     Button2: TButton;
+    procedure Button2Click(Sender: TObject);
   private
     FPendingTemperature: Double;
     FPendingWindSpeed: Double;
@@ -648,6 +649,11 @@ begin
       Mem.Free;
     end;
   end;
+end;
+
+procedure TForm1.Button2Click(Sender: TObject);
+begin
+  showmessage('Upload');
 end;
 
 procedure TForm1.LoadCityImages(const CityName: string);
