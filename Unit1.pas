@@ -70,7 +70,6 @@ implementation
 
 {$R *.fmx}
 
-// GIT DEMO: trivial change to test commit/push
 constructor TForm1.Create(AOwner: TComponent);
 begin
   inherited Create(AOwner);
