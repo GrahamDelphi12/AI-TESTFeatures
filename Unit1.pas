@@ -72,6 +72,7 @@ implementation
 
 constructor TForm1.Create(AOwner: TComponent);
 begin
+//This is my comment to test this 1-10-25
   inherited Create(AOwner);
   // Root layout (padding and vertical stacking)
   if RootLayout = nil then
